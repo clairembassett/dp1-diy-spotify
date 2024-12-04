@@ -1,0 +1,9 @@
+
+
+from chalice import Chalice
+
+app = Chalice(app_name='pacman')
+app.debug = True
+
+
+# Set the value of APP_BUCKET_NAME in the .chalice/confi
