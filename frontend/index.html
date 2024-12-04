@@ -20,9 +20,8 @@
     <script>
 
     $(document).ready(function() {
-      url = "http://3.91.125.18/songs";
+      url = "http://localhost:8787/songs";
       $.ajax({
-        // update the URL below to your songs API
         url: url,
         method: "GET",
         dataType: "json", 
