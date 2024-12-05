@@ -3,5 +3,6 @@
   "album": "Brat",
   "artist": "Charli XCX",
   "genre": 3,
-  "year": 2024
+  "year": 2024,
+  "file": "https://qxm6fm-dp1-spotify.s3.us-east-1.amazonaws.com/vdcxcx09.mp3"
 }
