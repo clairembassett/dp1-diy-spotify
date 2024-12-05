@@ -3,5 +3,6 @@
   "album": "Del Water Gap",
   "artist": "Del Water Gap",
   "genre": 2,
-  "year": 2021
+  "year": 2021,
+  "file": "https://qxm6fm-dp1-spotify.s3.us-east-1.amazonaws.com/odecon07.mp3"
 }
