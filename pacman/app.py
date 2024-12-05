@@ -73,7 +73,7 @@ def s3_handler(event):
             song_vals = (TITLE, ALBUM, ARTIST, YEAR, MP3, IMG, GENRE)
             cur.execute(add_song, song_vals)
             db.commit()
-	    print(song_vals)
+
         except mysql.connector.Error as err:
             app.log.error("Failed to insert song: %s", err)
             db.rollback()
